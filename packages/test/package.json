@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsup",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@musica-discord/server": "workspace:*",
+    "@musica-discord/plugin": "workspace:*",
+    "tsconfig": "workspace:*"
+  },
+  "private": true
+}

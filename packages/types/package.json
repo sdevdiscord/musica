@@ -1,0 +1,9 @@
+{
+  "name": "types",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "dependencies": {
+  },
+  "private": true
+}

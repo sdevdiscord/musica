@@ -1,0 +1,21 @@
+{
+  "name": "@musica-discord/server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "@musica-discord/plugin": "workspace:*",
+    "ffmpeg-static": "^5.2.0",
+    "prism-media": "^1.3.5",
+    "types": "workspace:*",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.31.0"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:*"
+  },
+  "private": false
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@musica-discord/client",
+  "version": "1.0.0",
+  "dependencies": {
+    "undici": "^5.23.0",
+    "ws": "^8.13.0"
+  },
+  "private": false
+}
